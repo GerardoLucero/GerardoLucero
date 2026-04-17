@@ -1,69 +1,73 @@
-<div align="center">
-
 # Gerardo Lucero
 
-**Solutions Architect · DevSecOps Engineer · Platform Engineering**
+**Solutions Architect & DevSecOps Engineer** &nbsp;·&nbsp; Mexico City &nbsp;·&nbsp; Open to remote opportunities
 
-Mexico City 🇲🇽 · Open to remote opportunities in USD
+7+ years building distributed systems at production scale across fintech, credit, and retail.
+Rare combination of platform architecture, security engineering, and technical product management.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-luceroriosg-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/luceroriosg)
-[![Portfolio](https://img.shields.io/badge/Portfolio-gerardolucero.github.io-black?style=flat&logo=astro&logoColor=white)](https://gerardolucero.github.io)
-[![npm](https://img.shields.io/badge/npm-14_packages-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/~gerardolucero)
-
-</div>
-
----
-
-## About me
-
-I build distributed systems at scale. **7+ years** across fintech and retail in Mexico — rare combination of platform architecture, security engineering, and technical product management.
-
-Most engineers specialize in one area. I operate across three:
-
-```typescript
-const gerardo = {
-  architecture : ["event-driven", "hexagonal", "microservices", "CQRS/Saga"],
-  devSecOps    : ["SAST/DAST", "policy-as-code", "container hardening", "supply chain"],
-  platform     : ["IDP", "golden paths", "developer experience", "SLO/SLI"],
-
-  cloud        : ["AWS (ECS, Lambda, Glue, CodePipeline)", "GCP", "Kubernetes", "OpenShift"],
-  messaging    : ["Kafka", "SQS", "event sourcing"],
-  observability: ["Dynatrace", "Prometheus", "Grafana", "distributed tracing"],
-};
-```
+[![Portfolio](https://img.shields.io/badge/Portfolio-gerardolucero.github.io-6366f1?style=flat&logo=astro&logoColor=white)](https://gerardolucero.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-luceroriosg-0077b5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/luceroriosg)
+[![npm](https://img.shields.io/badge/npm-gerardolucero-cb3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/~gerardolucero)
 
 ---
 
-## Highlights
+## What I build
 
-| | |
+- **Credit-scale APIs** — systems processing 20M+ queries/month in regulated financial environments
+- **Event-driven platforms** — Kafka pipelines handling $1B+ MXN in financial transactions
+- **Secure CI/CD** — SAST, DAST, policy-as-code, and container hardening across 1,200+ repositories
+- **Cloud-native infrastructure** — multi-cloud (AWS + GCP) with Kubernetes, OpenShift, and Terraform
+
+---
+
+## Stack
+
+**Cloud & Infra**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+
+**Streaming & Events**
+
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-FF9900?style=flat&logo=amazonsqs&logoColor=white)
+
+**Observability**
+
+![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat&logo=dynatrace&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+
+---
+
+## Featured projects
+
+| Repo | Description |
 |---|---|
-| **1,200+ repos** | Standardized CI/CD pipelines across an entire engineering org — 15+ build types (Java, React, Salesforce, K8s, Docker, mobile) |
-| **1B+ MXN** | Transactions processed through systems I helped architect in financial services |
-| **7 teams** | Architecture governance across multi-team organizations — ADR/C4 standards, maturity models |
-| **AI practitioner** | Applied AI in production systems · Diplomado IA (UVM) · Kafka Summit London 2023 |
+| [interview-sim](https://github.com/GerardoLucero/interview-sim) | AI mock interviewer — system design, behavioral, architecture |
+| [calcula-rfc](https://github.com/GerardoLucero/calcula-rfc) | RFC calculator — official SAT algorithm, used in production |
+| [validador-fiscal-mx](https://github.com/GerardoLucero/validador-fiscal-mx) | RFC, CURP, NSS validation for Mexican fiscal identifiers |
+| [calculadora-nomina-mx](https://github.com/GerardoLucero/calculadora-nomina-mx) | Full payroll calculator — IMSS, ISR, Infonavit |
 
 ---
 
-## Open Source — Mexican Dev Toolkit
+## GitHub stats
 
-A suite of 14 JavaScript/TypeScript libraries for developers building financial and government apps in Mexico. Zero dependencies, fully typed, ESM + CommonJS.
-
-| Package | Description | Version |
-|---------|-------------|---------|
-| [`calcula-curp`](https://github.com/GerardoLucero/calcula-curp) | CURP with homoclave — official RENAPO algorithm | ![npm](https://img.shields.io/npm/v/calcula-curp?style=flat-square) |
-| [`calcula-rfc`](https://github.com/GerardoLucero/calcula-rfc) | RFC generator and validator — official SAT algorithm | ![npm](https://img.shields.io/npm/v/calcula-rfc?style=flat-square) |
-| [`validador-clabe`](https://github.com/GerardoLucero/validador-clabe) | CLABE interbank account validation | ![npm](https://img.shields.io/npm/v/validador-clabe?style=flat-square) |
-| [`calculadora-nomina-mx`](https://github.com/GerardoLucero/calculadora-nomina-mx) | Full payroll: IMSS + ISR + Infonavit | ![npm](https://img.shields.io/npm/v/calculadora-nomina-mx?style=flat-square) |
-| [`validador-fiscal-mx`](https://github.com/GerardoLucero/validador-fiscal-mx) | RFC, CURP, NSS validation suite | ![npm](https://img.shields.io/npm/v/validador-fiscal-mx?style=flat-square) |
-| [`generador-datos-mx`](https://github.com/GerardoLucero/generador-datos-mx) | Realistic Mexican test data generator | ![npm](https://img.shields.io/npm/v/generador-datos-mx?style=flat-square) |
-| [`mx-bancos`](https://github.com/GerardoLucero/mx-bancos) | Complete Mexican bank catalog with CLABE codes | ![npm](https://img.shields.io/npm/v/mx-bancos?style=flat-square) |
-| [**+ 7 more →**](https://www.npmjs.com/~gerardolucero) | `calculadora-isr`, `calculadora-iva`, `mx-codigos-postales`, `mx-nombres`, `mx-feriados` ... | |
+<p align="left">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=GerardoLucero&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=stars" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GerardoLucero&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+</p>
 
 ---
 
-<div align="center">
-
-*Building systems that scale · Seeking remote roles in platform engineering, staff/principal engineering, or solutions architecture*
-
-</div>
+<sub>📍 Mexico City &nbsp;·&nbsp; Available for remote roles in USD &nbsp;·&nbsp; luceroriosg@gmail.com</sub>
