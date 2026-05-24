@@ -54,6 +54,7 @@ Rare combination of platform architecture, security engineering, and technical p
 
 | Repo | Description |
 |---|---|
+| [cv-stress-test](https://github.com/GerardoLucero/cv-stress-test) | N hiring managers simulate-read your CV — see what they think, free |
 | [interview-sim](https://github.com/GerardoLucero/interview-sim) | AI mock interviewer — system design, behavioral, architecture |
 | [calcula-rfc](https://github.com/GerardoLucero/calcula-rfc) | RFC calculator — official SAT algorithm, used in production |
 | [validador-fiscal-mx](https://github.com/GerardoLucero/validador-fiscal-mx) | RFC, CURP, NSS validation for Mexican fiscal identifiers |
