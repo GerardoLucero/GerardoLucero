@@ -52,13 +52,23 @@ Rare combination of platform architecture, security engineering, and technical p
 
 ## Featured projects
 
+**Platform & Infrastructure**
+
 | Repo | Description |
 |---|---|
-| [cv-stress-test](https://github.com/GerardoLucero/cv-stress-test) | N hiring managers simulate-read your CV — see what they think, free |
+| [homelab-idp](https://github.com/GerardoLucero/homelab-idp) | Production-grade Internal Developer Platform on 6-node Talos K8s — GitLab, ArgoCD, Harbor, Backstage, Vault, Kafka, Kyverno, SonarQube |
+| [k8s-patterns](https://github.com/GerardoLucero/k8s-patterns) | Production K8s patterns: multi-env Helm charts, KEDA workloads, Traefik ingress, observability — from operating a self-hosted cluster |
+| [gerardolucero.github.io](https://github.com/GerardoLucero/gerardolucero.github.io) | This portfolio — Astro + Tailwind |
+
+**AI Systems**
+
+| Repo | Description |
+|---|---|
+| [crowdmind](https://github.com/GerardoLucero/crowdmind) | AI focus groups, no scheduling required |
 | [interview-sim](https://github.com/GerardoLucero/interview-sim) | AI mock interviewer — system design, behavioral, architecture |
-| [calcula-rfc](https://github.com/GerardoLucero/calcula-rfc) | RFC calculator — official SAT algorithm, used in production |
-| [validador-fiscal-mx](https://github.com/GerardoLucero/validador-fiscal-mx) | RFC, CURP, NSS validation for Mexican fiscal identifiers |
-| [calculadora-nomina-mx](https://github.com/GerardoLucero/calculadora-nomina-mx) | Full payroll calculator — IMSS, ISR, Infonavit |
+| [cv-stress-test](https://github.com/GerardoLucero/cv-stress-test) | N synthetic hiring managers stress-test your CV before you send it |
+
+Also maintain a family of published npm utilities for Mexican fiscal/tax data — RFC, CURP, CLABE, payroll, IMSS/ISR calculators — see [npm profile](https://www.npmjs.com/~gerardolucero).
 
 ---
 
